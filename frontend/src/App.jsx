@@ -31,7 +31,7 @@ function App() {
     <Route path='/job' element={
        <div>
          <Navbar /> 
-         <Jobsuggestion /> 
+         <Jobsuggestion/> 
           </div> }
             />
   </Routes>

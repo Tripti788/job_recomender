@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import './Skillinput.css';
 import skill_bg from '../assets/skill_bg.jpg';
+import Spinner from './Spinner';
 
 const BASE_URL = 'https://job-recomender-tho9.onrender.com/api';
 
@@ -45,13 +46,19 @@ const SkillInput = () => {
     }
   };
 
-  const handleSubmit = async () => {
-     if (skills.length === 0) {
+  const [loading, setLoading] = useState(false);
+
+const handleSubmit = async () => {
+  if (skills.length === 0) {
     alert("Please enter at least one skill.");
     return;
   }
-    await fetchSuggestions(skills);
-  };
+
+  setLoading(true);
+  await fetchSuggestions(skills);
+  setLoading(false);
+};
+
 
   return (
     <div className="skill-section">
@@ -77,9 +84,10 @@ const SkillInput = () => {
             />
           </div>
 
-          <button onClick={handleSubmit} className="btn btn-dark mt-3">
-            Get Job Suggestions
-          </button>
+         <button onClick={handleSubmit} className="btn btn-dark mt-3" disabled={loading}>
+  {loading ?  <Spinner/>: "Get Job Suggestions"}
+</button>
+
         </div>
       </div>
     </div>
