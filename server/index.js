@@ -8,7 +8,7 @@ const jobRoutes = require('./routes/jobRoutes');
 const app = express();
 
 app.use(cors({
-  origin:'https://job-recomender.vercel.app/',
+  origin:'https://job-recomender.vercel.app',
   credentials:true
 }));
 app.use(express.json());
@@ -26,5 +26,5 @@ connectDB();
 
 const PORT = process.env.PORT || 10000;
 app.listen(PORT, () => {
-  console.log(`🚀 Server running at http://localhost:${PORT}`);
+  console.log(`🚀 Server running at global machine`);
 });
