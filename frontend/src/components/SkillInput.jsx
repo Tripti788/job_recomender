@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import './skillinput.css';
+import './Skillinput.css';
 import skill_bg from '../assets/skill_bg.jpg';
 
 const BASE_URL = 'http://localhost:5000/api';
