@@ -3,7 +3,7 @@ const express = require('express');
 const cors = require('cors');
 const connectDB = require('./config/db');
 
-const jobRoutes = require('./routes/jobRoutes');
+const jobRoutes = require('../server/routes/jobRoutes');
 
 const app = express();
 
