@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import './Skillinput.css';
 import skill_bg from '../assets/skill_bg.jpg';
 
-const BASE_URL = 'http://localhost:5000/api';
+const BASE_URL = 'https://job-recomender-tho9.onrender.com/api';
 
 const SkillInput = () => {
   const navigate = useNavigate();
