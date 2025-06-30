@@ -40,11 +40,16 @@ const SkillInput = () => {
 
       navigate('/job', { state: { suggestions: data.suggestions } });
     } catch (err) {
+       console.error('❌ Fetch error:', err.message);
       console.error('Error fetching job suggestions:', err);
     }
   };
 
   const handleSubmit = async () => {
+     if (skills.length === 0) {
+    alert("Please enter at least one skill.");
+    return;
+  }
     await fetchSuggestions(skills);
   };
 
