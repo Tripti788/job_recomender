@@ -1,0 +1,120 @@
+[
+  {
+    "title": "Frontend Developer",
+    "requiredSkills": ["react", "css", "html", "javascript"],
+    "description": "Develop user interfaces using React and modern web tools."
+  },
+  {
+    "title": "Backend Developer",
+    "requiredSkills": ["node.js", "express", "mongodb", "api"],
+    "description": "Create scalable backend systems using Node.js and Express."
+  },
+  {
+    "title": "Data Scientist",
+    "requiredSkills": ["python", "machine learning", "pandas", "numpy"],
+    "description": "Build predictive models and analyze data patterns."
+  },
+  {
+    "title": "DevOps Engineer",
+    "requiredSkills": ["aws", "docker", "kubernetes", "linux"],
+    "description": "Automate deployment pipelines and manage cloud infrastructure."
+  },
+  {
+    "title": "Mobile App Developer",
+    "requiredSkills": ["flutter", "dart", "firebase"],
+    "description": "Build cross-platform mobile apps using Flutter and Firebase."
+  },
+  {
+    "title": "Cybersecurity Analyst",
+    "requiredSkills": ["network security", "firewalls", "linux", "monitoring"],
+    "description": "Protect infrastructure and detect security threats."
+  },
+  {
+    "title": "Data Analyst",
+    "requiredSkills": ["excel", "sql", "power bi", "python"],
+    "description": "Analyze business data and create insightful dashboards."
+  },
+  {
+    "title": "AI Engineer",
+    "requiredSkills": ["tensorflow", "deep learning", "python", "nlp"],
+    "description": "Design and train AI models for automation and intelligence."
+  },
+  
+  {
+    "title": "Graphic Designer",
+    "requiredSkills": ["adobe photoshop", "illustrator", "creativity", "typography"],
+    "description": "Create visual content for branding, social media, and marketing."
+  },
+  {
+    "title": "Marketing Manager",
+    "requiredSkills": ["seo", "google analytics", "campaign strategy", "communication"],
+    "description": "Plan and manage marketing campaigns to increase brand awareness."
+  },
+  {
+    "title": "Nurse",
+    "requiredSkills": ["patient care", "medication administration", "empathy", "vital signs monitoring"],
+    "description": "Provide compassionate care to patients and assist with medical procedures."
+  },
+  {
+    "title": "Electrician",
+    "requiredSkills": ["wiring", "blueprints", "troubleshooting", "safety regulations"],
+    "description": "Install and maintain electrical systems in buildings and facilities."
+  },
+  {
+    "title": "Mechanical Engineer",
+    "requiredSkills": ["cad", "solidworks", "thermodynamics", "problem-solving"],
+    "description": "Design and develop mechanical systems and machinery."
+  },
+  {
+    "title": "Chef",
+    "requiredSkills": ["culinary skills", "food presentation", "hygiene", "menu planning"],
+    "description": "Prepare and cook delicious meals while managing kitchen operations."
+  },
+  {
+    "title": "Teacher",
+    "requiredSkills": ["lesson planning", "classroom management", "subject expertise", "communication"],
+    "description": "Educate and guide students across various academic subjects."
+  },
+  {
+    "title": "Civil Engineer",
+    "requiredSkills": ["autocad", "construction management", "site inspection", "surveying"],
+    "description": "Design, build, and supervise infrastructure like roads and buildings."
+  },
+  {
+    "title": "Pharmacist",
+    "requiredSkills": ["pharmaceutical knowledge", "prescription review", "attention to detail", "customer service"],
+    "description": "Dispense medication and offer advice on proper drug use."
+  },
+  {
+    "title": "Content Writer",
+    "requiredSkills": ["writing", "seo", "research", "editing"],
+    "description": "Create engaging and informative content for blogs, websites, and social media."
+  },
+  {
+    "title": "Digital Marketing Specialist",
+    "requiredSkills": ["social media ads", "email marketing", "analytics", "copywriting"],
+    "description": "Execute digital campaigns across platforms to increase online presence."
+  },
+  {
+    "title": "Interior Designer",
+    "requiredSkills": ["3d visualization", "autocad", "creativity", "space planning"],
+    "description": "Design interior spaces that are functional and aesthetically pleasing."
+  },
+  {
+    "title": "Accountant",
+    "requiredSkills": ["tally", "ms excel", "taxation", "bookkeeping"],
+    "description": "Manage financial records, audits, and ensure tax compliance."
+  },
+  {
+    "title": "Fitness Trainer",
+    "requiredSkills": ["exercise planning", "nutrition basics", "motivation", "anatomy"],
+    "description": "Guide clients to achieve their fitness goals through training and advice."
+  },
+  {
+    "title": "Fashion Designer",
+    "requiredSkills": ["sketching", "fabric knowledge", "trend analysis", "sewing"],
+    "description": "Design and create clothing and accessories that reflect fashion trends."
+  }
+
+
+]

@@ -1,0 +1,44 @@
+.skill-input-box {
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px solid #e0e0e0;
+  background-color: white;
+  padding: 6px;
+  border-radius: 8px;
+}
+
+.skill-tag {
+  background: 	#90e0ef;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 20px;
+  margin: 5px;
+  display: inline-flex;
+  align-items: center;
+
+  
+}
+
+.skill-tag button {
+  background: none;
+  border: none;
+  color: white;
+  margin-left: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.card {
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 16px;
+  padding: 1.5rem;
+  margin: 1rem 0;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  transition: 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+}

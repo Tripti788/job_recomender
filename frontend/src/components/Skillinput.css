@@ -1,0 +1,87 @@
+.skill-section {
+  height: 90vh;
+  width: 100%;
+  background-image: url('../assets/bg-image2.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.overlay {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(189, 188, 188, 0.5);  /*light white overlay*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.skill-card {
+  background-color: #e2e0e0;
+  padding: 2rem;
+  border-radius: 16px;
+  width: 90%;
+  max-width: 400px;
+  text-align: center;
+  /* box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1); */
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.1);
+
+}
+
+
+.skill-input-box {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  padding: 0.5rem;
+  border-radius: 8px;
+  background: #f9f9f9;
+}
+
+.skill-input-box input {
+  flex: 1;
+  border: none;
+  outline: none;
+  padding: 0.5rem;
+  font-size: 1rem;
+  background: transparent;
+}
+
+.skill-tag {
+  background-color: #e0f7fa;
+  padding: 0.4rem 0.7rem;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  font-size: 0.9rem;
+}
+
+.skill-tag button {
+  margin-left: 6px;
+  background: none;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+  color: #0077b6;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .skill-card {
+    padding: 1.5rem;
+  }
+
+  .skill-input-box {
+    flex-direction: column;
+  }
+
+  .skill-input-box input {
+    width: 100%;
+  }
+}
