@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import './Skillinput.css';
 import skill_bg from '../assets/skill_bg.jpg';
-import Spinner from './Spinner';
 
 const BASE_URL = 'https://job-recomender-tho9.onrender.com/api';
 
@@ -85,7 +84,7 @@ const handleSubmit = async () => {
           </div>
 
          <button onClick={handleSubmit} className="btn btn-dark mt-3" disabled={loading}>
-  {loading ?  <Spinner/>: "Get Job Suggestions"}
+  {loading ? "Loading..." : "Get Job Suggestions"}
 </button>
 
         </div>
